@@ -78,7 +78,7 @@ const MyPrevisionsMeteo = (props) => {
                 </div>
                 <p className="d-flex justify-content-end">
                   <i class="bi bi-wind text-secondary me-2"></i>Vento:
-                  {città && tempManchester.wind.speed}Km/h
+                  {città && tempManchester.wind.speed} nodi
                 </p>
               </Card.Body>
             </Card>
